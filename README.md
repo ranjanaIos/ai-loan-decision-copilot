@@ -1,3 +1,11 @@
+# 🧠 AI Loan Decision Copilot (Multi-Agent RAG System)
+
+A production-style decision intelligence system that combines Retrieval-Augmented Generation (RAG), multi-agent reasoning, and deterministic policy enforcement to evaluate loan applications.
+
+Unlike standard chatbots, this system prevents hallucinated approvals by integrating an LLM reasoning layer with a rule-based compliance engine.
+
+---
+
 ## 🧠 System Architecture
 
 ```mermaid
@@ -25,6 +33,7 @@ E --> F[Structured Output Validator]
 F --> G[Policy Guardrail Engine]
 
 G --> H[Final Decision API Response]
+```
 
 
 ---
@@ -43,11 +52,6 @@ This screams **GenAI Engineer**, not student.
 
 ---
 
-# Next — add project title (important branding)
-
-Put this at top of README:
-
-```markdown
 # 🧠 AI Loan Decision Copilot (Multi-Agent RAG System)
 
 A production-style decision intelligence system that combines Retrieval-Augmented Generation (RAG), multi-agent reasoning, and deterministic policy enforcement to evaluate loan applications.
